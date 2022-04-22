@@ -1,10 +1,10 @@
 body {
-    background-color: #d3d3d3;
+    background-color: #eeeeee;
     font-family: "Roboto", sans-serif;
 }
 
 header, main, footer {
-    padding: 80px;
+    padding: 50px;
 }
 
 h1 {
@@ -13,9 +13,21 @@ h1 {
     font-style: bold;
 }
 
+h4 {
+ font-weight: 400;
+}
+
 a {
     color: #746f6f;
 }
+
+hr {
+    display: block;
+    color: #eeeeee;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-width: 1px;
+  }
 
 .container {
     background-color: white;
@@ -41,6 +53,7 @@ header a {
     justify-content: space-between;
     align-items: center;
     margin: 0;
+    padding: 0;
 }
 
 .sign-up {
@@ -54,22 +67,24 @@ header a {
 }
 
 .post-graphic {
-    float: right;
-    
+    float: right; 
 }
 
 .offers {
-    display: flex;
+    position: relative;
     justify-content: center;
     text-align: bottom;
 }
 
-.banner {
-    background-color: orange;
-    width: 100%;
-    height: 150px;
-    padding: 20px;
-    border-radius: 8px;
+.offers img {
+    width: 100%; 
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: black;
 }
 
 .partners {
@@ -77,4 +92,98 @@ header a {
     justify-content:space-between;
     padding: 70px 0;
     margin: 0;
+}
+
+.auction p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.auction h2 {
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #eeeeee;
+    border-radius: 14px;
+    width: 290px;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px; 
+}
+
+.card-body-right {
+    text-align: right;
+}
+
+.product-name, .price {
+    font-size: 18px;
+}
+
+.product-code, .day-left {
+    color: #9c9191;
+}
+
+.footer {
+    color: #746f6f;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 18px;
+    color: #746f6f;
+}
+
+.social {
+    display: flex;
+    align-items: flex-start;
+}
+
+.social a {
+    color: #9c9191;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+
+.nav-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-column {
+    font-weight: 300;
+    text-align: right;
+    width: 120px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+li {
+    margin-top: 10px;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    color: #9c9191;
+    margin-top: 30px;
 }
