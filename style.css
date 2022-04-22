@@ -9,7 +9,7 @@ header, main, footer {
 
 h1 {
     color: black;
-    font-size: 52px;
+    font-size: 56px;
     font-style: bold;
 }
 
@@ -23,10 +23,10 @@ a {
 
 hr {
     display: block;
-    color: #eeeeee;
-    margin-top: 40px;
+    color: #f8f2f2;
+    margin-top: 0;
     margin-bottom: 40px;
-    border-width: 1px;
+    border-width: 0,5px;
   }
 
 .container {
@@ -64,6 +64,7 @@ header a {
     border-style: solid;
     width: 140px;
     height: 60px;
+    margin-top: 20px;
 }
 
 .post-graphic {
@@ -107,13 +108,14 @@ header a {
 .products {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .card {
     background-color: #eeeeee;
     border-radius: 14px;
     width: 290px;
-    height: 400px;
+    height: 410px;
     margin-top: 40px;
 }
 
@@ -159,7 +161,6 @@ header a {
     margin-right: 15px;
 }
 
-
 .nav-column {
     display: flex;
     justify-content: space-between;
@@ -185,5 +186,5 @@ li {
     justify-content: space-between;
     font-weight: 300;
     color: #9c9191;
-    margin-top: 30px;
+    margin-top: 40px;
 }
