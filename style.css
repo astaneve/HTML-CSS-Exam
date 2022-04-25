@@ -137,6 +137,10 @@ header a {
     color: #9c9191;
 }
 
+.price img {
+    width: 7%;
+}
+
 .footer {
     color: #746f6f;
 }
@@ -187,4 +191,40 @@ li {
     font-weight: 300;
     color: #9c9191;
     margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .container .info-side {
+        display: none;
+    }
+
+    .offers {
+        justify-items:baseline;
+        padding: none;
+    }
+
+    .offers .text-block {
+        float:left;
+        text-justify: auto;
+    }
+    
+    .partners {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card, .card img {
+        margin-right: 5%;
+    }
+
+    .price img{
+        width: 7%;
+    }
+
+    .info-bar {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+    }
+
 }
